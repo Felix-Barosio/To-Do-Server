@@ -16,5 +16,13 @@ class ApplicationController < Sinatra::Base
     todo.to_json
   end
 
+  post '/todos' do
+    todo = Todo.create(
+      text: params[:text],
+      category: params[:category],
+      done: params[:done],
+    )
+    todo.to_json
+  end
 
 end
