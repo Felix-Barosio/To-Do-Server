@@ -41,6 +41,10 @@ group :development do
   # Automatically reload when there are changes
   # https://github.com/alexch/rerun
   gem "rerun"
+
+   ## Added CORS
+  ## https://medium.com/addval-labs/adding-cors-configuration-to-a-sinatra-app-1ed426e2c028
+  # gem 'sinatra-cross_origin'
 end
 
 # These gems will only be used when we are running tests
