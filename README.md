@@ -2,7 +2,7 @@
 
 By Felix Barosio
 
-This is seerver side for the simple-to-do app.
+This is server side for the simple-to-do app.
 
 ## Table of content
 
